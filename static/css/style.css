@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #00bfff;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px rgba(0, 191, 255, 0.5);
+}
+
+#game-container {
+    margin: 20px auto;
+    background-color: #000;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 191, 255, 0.3);
+    overflow: hidden;
+    width: 800px;
+    height: 600px;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+}
+
+.instructions {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.instructions h2 {
+    color: #00bfff;
+    margin-top: 0;
+}
+
+.instructions ul {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.instructions li {
+    margin-bottom: 10px;
+} 
